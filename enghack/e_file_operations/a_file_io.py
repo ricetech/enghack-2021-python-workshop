@@ -18,3 +18,4 @@ with open("numbers.txt") as number_file:
         numbers_list.append(line_float)
 
 print(numbers_list)
+print(average_of_list(numbers_list))
